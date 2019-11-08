@@ -16,4 +16,3 @@ persistence.enabled: true
 dashboard.enabled: false
 dashboard.domain: traefik.example.com
 dashboard.auth.basic: null
-Values.acme.persistence.storageClass: aws
