@@ -322,7 +322,7 @@ acme:
     ##   set, choosing the default provisioner.  (gp2 on AWS, standard on
     ##   GKE, AWS & OpenStack)
     ##
-    # storageClass: "-"
+   storageClass: aws
     accessMode: ReadWriteOnce
     size: 1Gi
     ## A manually managed Persistent Volume Claim
