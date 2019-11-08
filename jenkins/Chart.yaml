@@ -3,7 +3,7 @@ name: jenkins
 home: https://jenkins.io/
 version: 1.8.2
 appVersion: lts
-description: Open source continuous integration server. It supports multiple SCM tools
+description: Private Open source continuous integration server. It supports multiple SCM tools
   including CVS, Subversion and Git. It can execute Apache Ant and Apache Maven-based
   projects as well as arbitrary scripts.
 sources:
