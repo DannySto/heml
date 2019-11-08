@@ -101,7 +101,7 @@ questions:
     default: true
     description: "Enable Persistence for Lets Encrypt Certificates"
     label: Persistence
-  - variable: Values.acme.persistence.storageClass
+  - variable: acme.persistence.storageClass
     default: ""
     description: "If undefined or null, uses the default StorageClass. Default to null"
     type: storageclass
