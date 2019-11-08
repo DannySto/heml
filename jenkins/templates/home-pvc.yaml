@@ -17,6 +17,7 @@ metadata:
 spec:
   accessModes:
     - {{ .Values.persistence.accessMode | quote }}
+  storageClassName: "aws"
   resources:
     requests:
       storage: {{ .Values.persistence.size | quote }}
