@@ -1,4 +1,4 @@
-# Jenkins Helm Chart
+# Private Jenkins Helm Chart
 
 Jenkins master and agent cluster utilizing the Jenkins Kubernetes plugin
 
