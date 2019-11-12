@@ -1,4 +1,9 @@
 questions:
+  - variable: agent.image
+    default: "-"
+    description: "If undefined or null, uses the default StorageClass. Default to null"
+    type: storageclass
+    label: Default StorageClass for jenkins
   - variable: persistence.storageClass
     default: "-"
     description: "If undefined or null, uses the default StorageClass. Default to null"
