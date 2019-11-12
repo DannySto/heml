@@ -2,7 +2,7 @@ questions:
   - variable: persistence.enabled
     default: false
     description: "Persistent storage"
-    label: Use Default Image
+    label: Use persitent storage
     type: boolean
   - variable: persistence.storageClass
     default: "-"
@@ -10,9 +10,8 @@ questions:
     type: storageclass
     label: Default StorageClass for SonarQube
   - variable: ingress.hosts[0].name
-    default: false
+    default: 	{}
     description: "	Hostname to your SonarQube installation"
-    label: Use Default Image
-    type: boolean
-
+    label: 	Ingress host name
+    type: string
   
