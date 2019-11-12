@@ -1,4 +1,9 @@
 questions:
+  - variable: persistence.enabled
+    default: false
+    description: "Persistent storage"
+    label: Use Default Image
+    type: boolean
   - variable: persistence.storageClass
     default: "-"
     description: "If undefined or null, uses the default StorageClass. Default to null"
@@ -9,9 +14,5 @@ questions:
     description: "	Hostname to your SonarQube installation"
     label: Use Default Image
     type: boolean
-  - variable: ingress.hosts[0].name
-    default: 	{}
-    description: "Ingress host name"
-    label: 	Ingress host name
-    type: string
+
   
