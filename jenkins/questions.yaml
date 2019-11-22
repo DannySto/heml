@@ -1,28 +1,11 @@
 questions:
-  - variable: agent.image
-    default: "-"
-    description: "If undefined or null, uses the default StorageClass. Default to null"
-    type: storageclass
-    label: Default StorageClass for jenkins
+
   - variable: persistence.storageClass
-    default: "-"
+    default: "aws"
     description: "If undefined or null, uses the default StorageClass. Default to null"
     type: storageclass
     label: Default StorageClass for jenkins
-  - variable: master.ingress.enabled
-    default: false
-    description: "Enables ingress"
-    label: Use Default Image
-    type: boolean
-  - variable: master.ingress.hostName
-    default: 	{}
-    description: "Ingress host name"
-    label: 	Ingress host name
-    type: string
-  - variable: master.ingress.annotations
-    default: 	{}
-    description: "Ingress host name"
-    label: 	Ingress host name
-    type: string
+
+
 
 
